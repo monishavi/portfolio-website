@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monisha V | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: url('https://via.placeholder.com/1200x400?text=Welcome+to+Monisha%27s+Portfolio') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            font-size: 1.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project h3 {
+            margin: 10px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .contact-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Monisha V</h1>
+        <p>Welcome to my portfolio website</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Monisha V! I am a software developer passionate about creating innovative solutions and user-friendly designs. I specialize in Java, web development, and data analysis.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="https://via.placeholder.com/300?text=Project+1" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A dynamic web application for managing tasks.</p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/300?text=Project+2" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>An AI-powered tool for analyzing glacial data.</p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/300?text=Project+3" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A creative portfolio design for showcasing work.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via:</p>
+        <div class="contact-links">
+            <a href="mailto:monisha@example.com">Email</a>
+            <a href="https://linkedin.com/in/monisha" target="_blank">LinkedIn</a>
+            <a href="https://github.com/monisha" target="_blank">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Monisha V. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
